@@ -1,0 +1,136 @@
+body{
+    background-color: #00000d;
+    color: white;
+}
+
+h1{
+    font-family: Raleway;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+h2{
+    font-family: Raleway;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h3{
+    font-family: Raleway;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+h4{
+    font-family: Raleway;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+h5{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 300; 
+}
+
+p{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: 100;
+    max-width: 70%;
+}
+
+ul{
+    font-weight: 700;
+}
+
+li{
+    font-weight: 300;
+}
+
+div.skills-list li{
+    margin-left: 4em;
+}
+
+.button-nav{
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+    background-color: #000040;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 15px;
+    margin: 1rem;
+}
+
+.button-nav:hover,
+.button-nav:focus {
+    background-color: #000080;
+}
+
+nav.website-header h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+nav.website-header h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+.website-menu{
+    text-align: center;
+}
+
+.element {
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    border-top-width: 0.15rem;
+    border-top-style: dashed;
+    border-top-color: white;
+  }
+
+#first.element{
+    border: none;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center;
+    margin-left: 15em;
+}
+
+.skills-list{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.work-experience{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center;
+    margin-left: 17em;
+}
+
+.work-experience-list{
+    margin: 2rem;
+    padding: 1rem;
+    max-width: 17em;
+}
+
+.education{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center;
+    margin-left: 7em;
+}
+
+.education-list{
+    margin: 2rem;
+    padding: 1rem;
+}
