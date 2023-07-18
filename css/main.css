@@ -100,12 +100,29 @@ nav.website-header h2{
     flex-wrap:wrap;
     justify-content: space-around;
     align-items:center;
-    margin-left: 15em;
+    margin: 5em 5em;
+    border-radius: 50px;
+    background: #00001a;
 }
 
 .skills-list{
     margin: 2rem;
-    padding: 1rem;
+    padding: 1.5rem;
+    border-radius: 30px;
+    background: #000026;
+}
+
+.skills-list-detail{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center;
+    margin-left: 15em;
+}
+
+div.skills-list h4{
+    margin: 0;
 }
 
 .work-experience{
@@ -113,13 +130,21 @@ nav.website-header h2{
     flex-wrap:wrap;
     justify-content: space-around;
     align-items:center;
-    margin-left: 17em;
+    margin: 5em 5em;
+    border-radius: 50px;
+    background: #00001a;
 }
 
 .work-experience-list{
     margin: 2rem;
-    padding: 1rem;
+    padding: 1.5rem;
     max-width: 17em;
+    border-radius: 30px;
+    background: #000026;
+}
+
+div.work-experience-list h4{
+    margin: 0;
 }
 
 .education{
@@ -127,10 +152,18 @@ nav.website-header h2{
     flex-wrap:wrap;
     justify-content: space-around;
     align-items:center;
-    margin-left: 7em;
+    margin: 5em 5em;
+    border-radius: 50px;
+    background: #00001a;
 }
 
 .education-list{
     margin: 2rem;
     padding: 1rem;
+    border-radius: 30px;
+    background: #000026;
+}
+
+div.education-list h4{
+    margin: 0;
 }
