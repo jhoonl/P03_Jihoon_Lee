@@ -370,7 +370,7 @@ div.education-list p{
     }
 
     li{
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     .skills-list{
@@ -401,5 +401,13 @@ div.education-list p{
     .introduction{
         margin:0;
         padding:1em;
+    }
+
+    .element{
+        padding:0;
+    }
+
+    .intro{
+        padding: 1em;
     }
 }
