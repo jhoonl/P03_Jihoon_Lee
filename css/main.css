@@ -197,7 +197,7 @@ div.education-list p{
     }
 }
 
-@media (max-width:1160px){
+@media (max-width:1184px){
     .work-experience-list{
         max-width: 50em;
     }
