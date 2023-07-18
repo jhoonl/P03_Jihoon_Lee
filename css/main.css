@@ -82,6 +82,7 @@ nav.website-header h2{
 .element {
     padding-bottom: 2rem;
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
     border-top-width: 0.15rem;
     border-top-style: dashed;
     border-top-color: white;
@@ -101,7 +102,6 @@ nav.website-header h2{
     flex-wrap:wrap;
     justify-content: space-around;
     align-items:center;
-    margin: 5em 5em;
     border-radius: 50px;
     background: #00001a;
 }
@@ -179,6 +179,11 @@ div.education-list p{
 
 
 @media (max-width:1920px){
+
+    .skills{
+        margin:5em 5em;
+    }
+
     .skill-list-visible{
         display:none;
     }
@@ -254,6 +259,24 @@ div.education-list p{
       }
 }
 
+@media (max-width:785px){
+    .skills{
+        margin:1em 1em;
+    }
+    
+    .work-experience{
+        margin:1em 1em;
+    }
+
+    .education{
+        margin:1em 1em;
+    }
+
+    .introduction{
+        margin:3em 3em;
+    }
+}
+
 @media (max-width:585px){
     .introduction-para-short{
         display: none;
@@ -261,5 +284,121 @@ div.education-list p{
 
     .work-experience-list-detail{
         display: none;
+    }
+}
+
+@media (max-width:490px){
+
+    nav.website-header h1{
+        font-size: 2em;
+    }
+
+    nav.website-header h2{
+        font-size: 1.5em;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 1.2em;
+    }
+
+    h4{
+        font-size: 1em;
+    }
+
+    h5{
+        font-size: 0.8em;
+    }
+
+    p{
+        font-size: 0.8em;
+    }
+
+    ul{
+        font-size: 0.8em;
+    }
+
+    li{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width:410px) {
+
+    nav.website-header h1{
+        font-size: 1.7em;
+    }
+
+    nav.website-header h2{
+        font-size: 1.3em;
+    }
+
+    h1{
+        font-size: 1.7em;
+    }
+
+    h2{
+        font-size: 1.3em;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+
+    h4{
+        font-size: 0.8em;
+    }
+
+    h5{
+        font-size: 0.7em;
+    }
+
+    p{
+        font-size: 0.6em;
+    }
+
+    ul{
+        font-size: 0.7em;
+    }
+
+    li{
+        font-size: 0.6em;
+    }
+
+    .skills-list{
+        margin: 0em 0em 1em;
+        padding: 0em 1em 2em;
+    }
+
+    .work-experience-list{
+        margin: 0em 0em 1em;
+        padding: 1em 1em 1em;
+    }
+
+    div.work-experience-list p{
+        margin:0;
+        max-width: 100%;
+    }
+
+    .education-list{
+        margin: 0em 0em 1em;
+        padding: 1em 1em 1em;
+    }
+
+    div.education-list p{
+        margin:0;
+        max-width: 100%;
+    }
+
+    .introduction{
+        margin:0;
+        padding:1em;
     }
 }
