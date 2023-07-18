@@ -37,7 +37,7 @@ p{
     font-family: Raleway;
     font-size: 1em;
     font-weight: 100;
-    max-width: 70%;
+    max-width: 100%;
 }
 
 ul{
@@ -46,10 +46,6 @@ ul{
 
 li{
     font-weight: 300;
-}
-
-div.skills-list li{
-    margin-left: 4em;
 }
 
 .button-nav{
@@ -95,6 +91,11 @@ nav.website-header h2{
     border: none;
 }
 
+.introduction{
+    text-align: center;
+    margin: 0 10em;
+}
+
 .skills{
     display:flex;
     flex-wrap:wrap;
@@ -119,6 +120,10 @@ nav.website-header h2{
     justify-content: space-around;
     align-items:center;
     margin-left: 15em;
+}
+
+div.skills-list li{
+    margin-left: 2.5em;
 }
 
 div.skills-list h4{
@@ -166,4 +171,99 @@ div.work-experience-list h4{
 
 div.education-list h4{
     margin: 0;
+}
+
+div.education-list p{
+    margin: 0;
+}
+
+
+@media (max-width:1920px){
+    .skill-list-visible{
+        display:none;
+    }
+
+    .skill-list-title-visible{
+        display:none;
+    }
+
+    .skill-list-title-pop{
+        display:none;
+    }
+}
+
+@media (max-width:1160px){
+    .work-experience-list{
+        max-width: 50em;
+    }
+
+    div.work-experience-list p{
+        max-width:80%;
+    }
+}
+
+@media (max-width:967px){
+
+    .skill-list-visible{
+        display:inline;
+    }
+
+     .skills-list-hide{
+        display:none;
+    }
+
+    .skills-list{
+        width:40em;
+    }
+
+    .education-list{
+        width: 40em;
+    }
+
+    .skill-list-title-visible{
+        display:inline;
+    }
+
+    .skill-list-title-pop{
+        display:inline;
+    }
+
+    div.skills-list h4{
+        height:50px;
+    }
+    .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .skill-list-detail {
+        flex-basis: 50%;
+        box-sizing: border-box;
+        margin-top: 20px; /* Add some spacing between items */
+      }
+      
+      h5 {
+        margin-top: 0;
+      }
+      
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      div.skill-list-detail li{
+        margin-left:0;
+      }
+      
+      
+}
+
+@media (max-width:585px){
+    .introduction-para-short{
+        display: none;
+    }
+
+    .work-experience-list-detail{
+        display: none;
+    }
 }
