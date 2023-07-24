@@ -878,6 +878,10 @@ iframe{
         padding-left: 2em;
     }
 
+    .project-note p{
+        max-width:23.8em;
+    }
+
     .project-img iframe{
         width: 265px;
         height: 149.7px;
