@@ -7,12 +7,21 @@ body{
     ;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .intro{
     color: white;
 }
 
 .introduction{
     color: white;
+}
+
+div.introduction h3{
+    font-size: 4em;
 }
 
 .skills{
@@ -149,6 +158,7 @@ nav.website-header h2{
 }
 
 .website-menu{
+    margin-top: 1em;
     text-align: center;
 }
 
@@ -165,7 +175,7 @@ nav.website-header h2{
 
 .introduction{
     text-align: center;
-    margin: 0 10em;
+    margin: 5em 10em;
 }
 
 .skills{
@@ -263,7 +273,6 @@ div.projects h2{
 .project-container{
     display: flex;
     flex-wrap: wrap;
-    
     align-items:left;
     margin: 5em 5em;
     border-radius: 50px;
@@ -284,7 +293,8 @@ div.projects h2{
 
 .button-to-project .button-nav{
     margin: 1em 0em 3em 0em;
-    padding: 2em 3em 2em 3em;
+    padding: 2em 3em 2em 13.5em;
+    width: 15em;
 }
 
 .button-to-about .button-nav{
@@ -304,6 +314,33 @@ iframe{
     border:none;
     border-radius: 20px;
     margin-top: 2.5em;
+}
+
+.contact-me{
+    margin:3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.contact-me img{
+    width:80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#linkedin img{
+    width:150px;
+    margin-left:1em;
+}
+
+#discord img{
+    width: 120px;
+    margin-top: 0.5em;
+    margin-right: 1.5em;
+}
+
+#instgram img{
 }
 
 
