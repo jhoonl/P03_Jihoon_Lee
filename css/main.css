@@ -1,5 +1,29 @@
+header{
+    color: white;
+}
+
 body{
-    background-color: #00000d;
+    background-color: #1D2E28;
+    ;
+}
+
+.intro{
+    color: white;
+}
+
+.introduction{
+    color: white;
+}
+
+.skills{
+    color: white;
+}
+
+.work-experience{
+    color: white;
+}
+
+.education{
     color: white;
 }
 
@@ -7,6 +31,49 @@ h1{
     font-family: Raleway;
     font-size: 3em;
     font-weight: 900;
+}
+
+.leading-content{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.leading h1{
+    font-size: 10em;
+    color: white;
+    margin: 0.5em 0.3em 0em 0.3em;
+}
+
+.leading h2{
+    font-size: 6em;
+    color: white;
+    margin: 0.5em;
+
+}
+
+.leading h3{
+    font-size: 4em;
+    color: white;
+    margin: 0em 0.3em 0em 0.3em;
+}
+
+.leading p{
+    font-size: 2em;
+    color: white;
+    margin: 0.5em;
+    max-width:600px;
+
+}
+
+.leading-photo img{
+    margin: 5em 10em;
+    width: 700px;
+    border-radius: 50%;
+}
+
+.leading-about{
+    align-self: center;
 }
 
 h2{
@@ -36,7 +103,7 @@ h5{
 p{
     font-family: Raleway;
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 300;
     max-width: 100%;
 }
 
@@ -50,24 +117,30 @@ li{
 
 .button-nav{
     display: inline-block;
-    padding: 1rem;
+    padding: 0.8rem;
     color: white;
-    background-color: #000040;
+    background-color:#0A5C36;
     text-decoration: none;
     transition-property: background-color;
     transition-duration: 0.5s;
     border-radius: 15px;
-    margin: 1rem;
 }
 
 .button-nav:hover,
 .button-nav:focus {
-    background-color: #000080;
+    background-color: #14452F;
+}
+
+.header-content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 2em;
 }
 
 nav.website-header h1{
-    text-align: center;
-    font-size: 3em;
+    text-align: left;
+    font-size: 2em;
 }
 
 nav.website-header h2{
@@ -84,8 +157,6 @@ nav.website-header h2{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-top-width: 0.15rem;
-    border-top-style: dashed;
-    border-top-color: white;
   }
 
 #first.element{
@@ -103,14 +174,14 @@ nav.website-header h2{
     justify-content: space-around;
     align-items:center;
     border-radius: 50px;
-    background: #00001a;
+    background: #18392b;
 }
 
 .skills-list{
     margin: 2rem;
     padding: 1.5rem;
     border-radius: 30px;
-    background: #000026;
+    background: #14452F;
 }
 
 .skills-list-detail{
@@ -137,7 +208,7 @@ div.skills-list h4{
     align-items:center;
     margin: 5em 5em;
     border-radius: 50px;
-    background: #00001a;
+    background: #18392b;
 }
 
 .work-experience-list{
@@ -145,7 +216,7 @@ div.skills-list h4{
     padding: 1.5rem;
     max-width: 17em;
     border-radius: 30px;
-    background: #000026;
+    background: #14452F;
 }
 
 div.work-experience-list h4{
@@ -159,14 +230,14 @@ div.work-experience-list h4{
     align-items:center;
     margin: 5em 5em;
     border-radius: 50px;
-    background: #00001a;
+    background: #18392b;
 }
 
 .education-list{
     margin: 2rem;
     padding: 1rem;
     border-radius: 30px;
-    background: #000026;
+    background: #14452F;
 }
 
 div.education-list h4{
@@ -175,6 +246,64 @@ div.education-list h4{
 
 div.education-list p{
     margin: 0;
+}
+
+.element{
+    color: white;
+}
+
+.projects{
+    color: white;
+}
+
+div.projects h2{
+    margin-left: 2em;
+}
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items:left;
+    margin: 5em 5em;
+    border-radius: 50px;
+    background: #18392b;
+    padding:3em;
+    padding-top:1em;
+    padding-bottom: 1em;
+}
+
+.project-content{
+    align-self: center;
+    margin-left:8em;
+}
+
+.project-note{
+    max-width: 30em;
+}
+
+.button-to-project .button-nav{
+    margin: 1em 0em 3em 0em;
+    padding: 2em 3em 2em 3em;
+}
+
+.button-to-about .button-nav{
+    margin: 1em 0em 3em 1em;
+    padding: 2em 3em 2em 16em;
+    width: 17em;
+}
+
+div.project-DLDK-img img{
+    max-width:300px;
+    height: auto;
+}
+
+iframe{
+    width:600px;
+    height:338px;
+    border:none;
+    border-radius: 20px;
+    margin-top: 2.5em;
 }
 
 
