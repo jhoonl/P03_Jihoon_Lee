@@ -417,6 +417,10 @@ iframe{
         margin-left: 3em;
     }
 
+    .project-img iframe{
+        margin-top: 1.5em;
+    }
+
 
 }
 
@@ -480,13 +484,11 @@ iframe{
     .project-img iframe{
         width: 500px;
         height: 280px;
-        margin-top: 4.5em;
+        margin-top: 0.5em;
     }
 }
 
 @media (max-width: 1355px){
-    
-
     .project-img iframe{
         margin-top: 0.8em;
     }
