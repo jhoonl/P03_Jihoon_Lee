@@ -911,7 +911,7 @@ iframe{
     }
     .leading-photo img{
         margin: 1em 1em;
-        width: 300px;
+        width: 250px;
         border-radius: 50%;
     }
 
@@ -944,14 +944,15 @@ iframe{
 
     .button-to-about .button-nav{
         margin: 1em;
-        padding: 2em 3em 2em 9em;
-        width: 10em;
+        padding: 2em 3em 2em 8em;
+        width: 9em;
     }
 
     .project-container{
         margin: 1em;
         padding:0em;
         padding-bottom: 1em;
+        
     }
     
 
@@ -1000,5 +1001,12 @@ iframe{
         justify-content: center;
         background: #18392b;
         border-radius: 20px;
+    }
+
+    .leading-about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:1em;
     }
 }
