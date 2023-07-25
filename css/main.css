@@ -462,6 +462,10 @@ iframe{
         font-size: 1.5em;
     }
 
+    .project-container{
+        padding: 1em;
+    }
+
     .project-content h3{
         font-size: 1em;
     }
@@ -482,8 +486,8 @@ iframe{
     }
 
     .project-img iframe{
-        width: 500px;
-        height: 280px;
+        width: 560px;
+        height: 315px;
         margin-top: 0.5em;
     }
 }
