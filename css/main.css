@@ -134,7 +134,14 @@ li{
     transition-property: background-color;
     transition-duration: 0.5s;
     border-radius: 15px;
+    box-shadow: 0px 7px black;
 }
+
+.button-nav:active {
+    background-color: #084029;
+    box-shadow: 0px 0px black;
+    transform: translate(0px, 7px);
+  }
 
 .button-nav:hover,
 .button-nav:focus {
@@ -274,6 +281,7 @@ div.projects h2{
 .project-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content:center;
     align-items:left;
     margin: 5em 5em;
     border-radius: 50px;
@@ -293,15 +301,17 @@ div.projects h2{
 }
 
 .button-to-project .button-nav{
-    margin: 1em 0em 3em 0em;
+    margin: 1em 0em;
     padding: 2em 3em 2em 13.5em;
     width: 15em;
+    justify-content:center;
 }
 
 .button-to-about .button-nav{
-    margin: 1em 0em 3em 1em;
-    padding: 2em 3em 2em 16em;
+    margin: 1em 1em 3em 1em;
+    padding: 2em 2em 2em 16em;
     width: 17em;
+    justify-content: center;
 }
 
 .project-images{
@@ -322,12 +332,16 @@ iframe{
     margin-top: 2.5em;
 }
 
-.contact-me{
-    margin:3em;
+.contact-footer{
+    margin:0em 3em 3em 3em;
+    padding: 1em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
+    background: #18392b;
+    border-radius: 20px;
 }
+
 
 .contact-me img{
     width:80px;
@@ -342,14 +356,43 @@ iframe{
 
 #discord img{
     width: 120px;
-    margin-top: 0.5em;
-    margin-right: 1.5em;
+    margin-bottom: 0.4em;
+    margin-right: 1em;
 }
 
 #instgram img{
+    margin-right: 1em;
 }
 
+/* Add this CSS to your existing styles */
 
+/* Style for the jumping animation */
+@keyframes jumpAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the jump animation to each character in the titles */
+  .leading h1 span,
+  .leading h2 span {
+    display: inline-block;
+    cursor: pointer; /* Set the cursor to hand when hovering */
+  }
+  
+  /* Add animation iteration count and fill mode */
+  .leading h1 span,
+  .leading h2 span {
+    animation: jumpAnimation 2s infinite;
+  }
+  
+  
 @media (max-width:1920px){
 
     .skills{
@@ -464,6 +507,12 @@ iframe{
     .project-note p{
         width:70em;
     }
+
+    div.project-img img{
+        max-width:300px;
+        height: auto;
+        margin-right:7em;
+    }
 }
 
 @media (max-width:1184px){
@@ -577,7 +626,7 @@ iframe{
     }
 
     .button-to-project .button-nav{
-        padding: 1em 2em 1em 6em;
+        padding: 1em 4em 1em 7em;
         width: 8em;
     }
 
@@ -585,6 +634,12 @@ iframe{
         margin-top: 2em;
         width: 530px;
         height: 298px;
+    }
+
+    div.project-img img{
+        max-width:300px;
+        height: auto;
+        margin-right:3em;
     }
 }
 
@@ -629,7 +684,7 @@ iframe{
     }
 
     .button-to-about .button-nav{
-        margin: 1em 0em 3em 1em;
+        margin: 1em 3em;
         padding: 2em 3em 2em 13em;
         width: 14em;
     }
@@ -681,6 +736,17 @@ iframe{
     .work-experience-list-detail{
         display: none;
     }
+
+    div.project-img img{
+        max-width:300px;
+        height: auto;
+        margin-right:1em;
+    }
+
+    .project-container{
+        margin: 2em;
+        padding:0em;
+    }
 }
 
 @media (max-width:527px){
@@ -688,6 +754,17 @@ iframe{
         margin: 1em 2em;
         width: 400px;
         border-radius: 50%;
+    }
+
+    .project-container{
+        margin: 1em;
+        padding:0em;
+    }
+
+    .button-to-about .button-nav{
+        margin: 1em 3em;
+        padding: 2em 3em 2em 11em;
+        width: 13em;
     }
 }
 
@@ -829,48 +906,45 @@ iframe{
         border-radius: 50%;
     }
 
-    .project-img iframe{
-        margin-top: 2em;
-        width: 280px;
-        height: 158px;
-    }
-
     .leading h1{
-        font-size: 2em;
+        font-size: 1.8em;
         color: white;
-        margin: 0.5em 0.3em 0em 0.3em;
+        margin: 1em 1em 0em;
     }
     
     .leading h2{
-        font-size: 1.2em;
+        font-size: 1em;
         color: white;
-        margin: 0.5em;
+        margin: 0.5em 2em;
     
     }
     
     .leading h3{
         font-size: 1em;
         color: white;
-        margin: 0em 0.3em 0em 0.3em;
+        margin: 0em 1.5em;
     }
     
     .leading p{
         font-size: 0.8em;
         color: white;
-        margin: 0.5em;
+        margin: 1em 2em;
         max-width:600px;
     
     }
 
     .button-to-about .button-nav{
-        margin: 1em 0em 3em 1em;
-        padding: 2em 3em 2em 8em;
-        width: 9.5em;
+        margin: 1em;
+        padding: 2em 3em 2em 9em;
+        width: 10em;
     }
 
     .project-container{
-        margin:1em;
+        margin: 1em;
+        padding:0em;
+        padding-bottom: 1em;
     }
+    
 
     .project-img img {
         width:200px;
@@ -878,13 +952,19 @@ iframe{
         padding-left: 2em;
     }
 
+    div.project-img img{
+        max-width:300px;
+        height: auto;
+        margin-right:2em;
+    }
+
     .project-note p{
         max-width:23.8em;
     }
 
     .project-img iframe{
-        width: 265px;
-        height: 149.7px;
+        width: 350px;
+        height: 196.5px;
     }
 
     .contact-me{
@@ -902,5 +982,14 @@ iframe{
 
     #discord img{
         width:4.3em;
+    }
+
+    .contact-footer{
+        margin:0em 1em 1em 1em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: #18392b;
+        border-radius: 20px;
     }
 }
