@@ -422,13 +422,13 @@ iframe{
 
 @media (max-width:1455px){
     .leading h1{
-        font-size: 7em;
+        font-size: 9em;
         color: white;
         margin: 0.5em 0.3em 0em 0.3em;
     }
     
     .leading h2{
-        font-size: 3.5em;
+        font-size: 4.5em;
         color: white;
         margin: 0.5em;
     
