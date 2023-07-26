@@ -364,6 +364,222 @@ iframe{
     margin-right: 1em;
 }
 
+.leading-project{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3em 3em 10em 3em;
+}
+
+.leading-project-title{
+    align-self: center;
+}
+
+.leading-project-img img{
+    width: 500px;
+    height: auto;
+}
+
+.project-body{
+    color: white;
+    margin: 15em 15em 5em 15em;
+}
+
+.project-body p{
+    max-width:50em;
+}
+
+.project-body-introduction-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-body-introduction-top-leading{
+    align-self: center;
+}
+
+.project-body img{
+    width: 300px;
+    height: auto;
+}
+
+.project-body-introduction-top-leading-img img{
+    width:400px;
+}
+
+.project-body-introduction-research{
+    display: flex;
+    justify-content: flex-start;
+    margin:2em 0em;
+}
+
+.project-body-introduction-process-two{
+    display: flex;
+    justify-content: space-evenly;
+    margin:1em;
+}
+
+.project-body-introduction-process-two p{
+    align-self: center;
+}
+
+.project-body-introduction-process-two img{
+    width: 400px;
+}
+
+.project-body-introduction-process-three{
+    display: flex;
+    justify-content: space-evenly;
+    margin:1em;
+}
+
+.project-body-introduction-process-three p{
+    align-self: center;
+}
+
+.project-body-introduction-process-three img{
+    width: 400px;
+}
+
+.project-body-introduction-process-four{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:1em;
+}
+
+.project-body-introduction-process-four p{
+    align-self: center;
+    justify-content: center;
+}
+
+.project-body-introduction-process-four img{
+    width: 400px;
+    height: auto;
+}
+
+.project-body-introduction-redesign-one p{
+    max-width: 70em;
+}
+.project-body-introduction-redesign-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-body-introduction-redesign-two img{
+    width: 500px;
+    height: auto;
+}
+
+.project-body-introduction-redesign-three{
+    display: flex;
+    justify-content: center;
+}
+
+.project-body-introduction-redesign-four{
+    display: flex;
+    justify-content: space-evenly;
+    margin:1em;
+}
+.project-body-introduction-redesign-four p{
+    align-self: center;
+}
+.project-body-introduction-redesign-four img{
+    width: 400px;
+    height: auto;
+}
+
+.project-body-introduction-redesign-five{
+    display: flex;
+    justify-content: space-evenly;
+    margin:1em;
+}
+.project-body-introduction-redesign-five p{
+    align-self: center;
+}
+.project-body-introduction-redesign-five img{
+    width: 400px;
+    height: auto;
+}
+
+.project-body-introduction-redesign-six{
+    display: flex;
+    justify-content: space-evenly;
+    margin:1em;
+}
+.project-body-introduction-redesign-six p{
+    align-self: center;
+}
+.project-body-introduction-redesign-six img{
+    width: 400px;
+    height: auto;
+}
+
+.project-body-introduction-redesign-seven{
+    display: flex;
+    justify-content: space-evenly;
+    margin:1em;
+}
+
+.project-body-introduction-redesign-seven img{
+    width: 400px;
+    height: auto;
+}
+
+.project-body-introduction-redesign-eight{
+    display: flex;
+    justify-content: center;
+}
+.project-body-introduction-redesign-eight p{
+    max-width: 70em;
+}
+
+.project-body-introduction-watch{
+    margin-top: 5em;
+}
+
+.project-body-introduction-watch-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:auto;
+    margin-bottom: 5em;
+}
+.project-body-introduction-watch-one img{
+    width:1000px;
+}
+.project-body-introduction-watch-one p{
+    max-width: 20em;
+    align-self: center;
+}
+
+.project-body-introduction-watch-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project-body-introduction-watch-two img{
+    width: 450px;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+.project-body-introduction-challenges{
+    margin:5em 0em;
+}
+
+.project-body-introduction-reflection{
+    margin:5em 0em;
+}
+
+.project-body-introduction-conclusion{
+    margin:5em 0em 0em 0em;
+}
+
+
+
 /* Add this CSS to your existing styles */
 
 /* Style for the jumping animation */
