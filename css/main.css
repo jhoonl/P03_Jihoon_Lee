@@ -558,7 +558,7 @@ iframe{
 .project-body-introduction-watch-two{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .project-body-introduction-watch-two img{
     width: 450px;
@@ -578,9 +578,41 @@ iframe{
     margin:5em 0em 0em 0em;
 }
 
+.perfect-match-video iframe{
+    width: 1000px;
+    height: 562px;
+}
 
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+}
 
-/* Add this CSS to your existing styles */
+.images img{
+    width:670px;
+}
+
+.project-body-introduction-initial-one{
+    margin: 5em 0em;
+}
+
+.project-body-introduction-initial-three{
+    margin: 3em 0em;
+}
+
+.project-body-introduction-feedback-one{
+    margin: 5em 0em;
+}
+
+.project-body-introduction-feedback-three{
+    margin: 3em 0em;
+}
+
+.project-body-introduction-media-one{
+    margin: 5em 0em 0em 0em;
+}
 
 /* Style for the jumping animation */
 @keyframes jumpAnimation {
