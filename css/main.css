@@ -618,6 +618,42 @@ iframe{
     max-width:300px;
 }
 
+.interests{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-self: center;
+    margin: 0em 3em 5em;
+    border-radius: 30px;
+    background: #18392b;
+    padding:3em;
+}
+
+.interests h2{
+    margin: 0;
+    align-self: center;
+}
+
+.interests-note{
+    max-width: 30em;
+    align-self: center;
+}
+
+.contact-info{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 0em 3em 5em;
+    border-radius: 30px;
+    background: #18392b;
+    padding:3em;
+}
+.contact-info-note{
+    align-self: center;
+}
+
+
 /* Style for the jumping animation */
 @keyframes jumpAnimation {
     0% {
