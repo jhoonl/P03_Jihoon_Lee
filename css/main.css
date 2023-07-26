@@ -614,6 +614,10 @@ iframe{
     margin: 5em 0em 0em 0em;
 }
 
+.project-DLDK-img img{
+    max-width:300px;
+}
+
 /* Style for the jumping animation */
 @keyframes jumpAnimation {
     0% {
