@@ -2,11 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const title = document.getElementById('title');
     const subtitle = document.getElementById('title-secondary');
   
-    // Flag to track typewriter animation completion
     let titleLoaded = false;
     let subtitleLoaded = false;
   
-    // Function to check if both titles have finished loading
     function checkAnimationCompletion() {
       if (titleLoaded && subtitleLoaded) {
         title.style.transform = 'scale(1)';
@@ -21,15 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
       subtitle.style.opacity = '1';
       titleLoaded = true;
       checkAnimationCompletion();
-    }, 100); // Add a small delay to ensure proper rendering
+    }, 100); 
   
-    // Typewriter effect for title
     typewriterEffect(title, () => {
       titleLoaded = true;
       checkAnimationCompletion();
     });
   
-    // Typewriter effect for subtitle
     typewriterEffect(subtitle, () => {
       subtitleLoaded = true;
       checkAnimationCompletion();
@@ -41,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     element.innerText = '';
   
     let i = 0;
-    const speed = 80; // Adjust the typing speed (in milliseconds)
+    const speed = 80;
   
     function type() {
       if (i < text.length) {
@@ -53,12 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
         i++;
         setTimeout(type, speed);
       } else {
-        // Typewriter animation complete
+        
         if (typeof callback === 'function') {
-          callback(); // Call the callback function if provided
+          callback(); 
         }
       }
     }
   
     type();
   }
+
+  
