@@ -653,33 +653,32 @@ iframe{
     align-self: center;
 }
 
+.citation-list{
+    color: white;
+    margin: 5em;
+}
 
-/* Style for the jumping animation */
-@keyframes jumpAnimation {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
-  /* Apply the jump animation to each character in the titles */
-  .leading h1 span,
-  .leading h2 span {
-    display: inline-block;
-    cursor: pointer; /* Set the cursor to hand when hovering */
-  }
-  
-  /* Add animation iteration count and fill mode */
-  .leading h1 span,
-  .leading h2 span {
-    animation: jumpAnimation 2s infinite;
-  }
-  
+.footer-all{
+    background: #18392b;
+    margin: 3em;
+    padding: 1em;
+    border-radius: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.footer-item{
+    color: white;
+    text-decoration:underline;
+    align-self: center;
+}
+
+.footer-item:hover{
+    text-decoration: none;
+} 
   
 @media (max-width:1920px){
 
@@ -700,7 +699,18 @@ iframe{
     }
 }
 
-@media (max-width:1535px){
+@media (max-width:1820px){
+.leading h1{
+    font-size: 10em;
+}
+
+.leading h2{
+    font-size: 5em;
+
+}
+}
+
+@media (max-width:1555px){
     .project-content{
         margin-left: 3em;
     }
@@ -709,23 +719,19 @@ iframe{
         margin-top: 1.5em;
     }
 
-
-}
-
-@media (max-width:1455px){
     .leading h1{
-        font-size: 9em;
-        color: white;
-        margin: 0.5em 0.3em 0em 0.3em;
+        font-size: 8em;
     }
     
     .leading h2{
-        font-size: 4.5em;
-        color: white;
-        margin: 0.5em;
+        font-size: 4em;
     
     }
-    
+
+
+}
+
+@media (max-width:1480px){
     .leading h3{
         font-size: 3em;
         color: white;
@@ -764,6 +770,26 @@ iframe{
 
     }
 
+    .interests h2{
+        font-size: 2em;
+    }
+
+    .interests-note h4{
+        font-size: 1em;
+    }
+
+    .interests-note p{
+        font-size: 0.8em;
+    }
+
+    .contact-info h2{
+        font-size: 2em;
+    }
+
+    .contact-info-note p{
+        font-size: 0.8em;
+    }    
+
     .button-to-project .button-nav{
         padding: 1em 2em 1em 10em;
         width: 12em;
@@ -780,13 +806,8 @@ iframe{
     }
 }
 
-@media (max-width: 1355px){
-    .project-img iframe{
-        margin-top: 0.8em;
-    }
-}
 
-@media (max-width:1235px){
+@media (max-width:1250px){
     #second.project-img{
         display:none;
     }
@@ -809,6 +830,15 @@ iframe{
         max-width:300px;
         height: auto;
         margin-right:7em;
+    }
+
+    .leading h1{
+        font-size: 7em;
+    }
+    
+    .leading h2{
+        font-size: 3.5em;
+    
     }
 }
 
@@ -854,27 +884,39 @@ iframe{
         flex-wrap: wrap;
       }
       
-      .skill-list-detail {
+    .skill-list-detail {
         flex-basis: 50%;
         box-sizing: border-box;
-        margin-top: 20px; /* Add some spacing between items */
+        margin-top: 20px; 
       }
       
-      h5 {
+    .work-experience h5 {
         margin-top: 0;
       }
       
-      ul {
+    ul {
         list-style-type: none;
         padding: 0;
       }
 
-      div.skill-list-detail li{
+    div.skill-list-detail li{
         margin-left:0;
       }
+    
 }
 
-@media (max-width:995px){
+@media (max-width:1080px){
+    .leading h1{
+        font-size: 6em;
+    }
+    
+    .leading h2{
+        font-size: 3em;
+    
+    }
+}
+
+@media (max-width:985px){
     .leading h1{
         font-size: 5em;
         color: white;
@@ -938,13 +980,33 @@ iframe{
         height: auto;
         margin-right:3em;
     }
+
+    .interests h2{
+        font-size: 1.5em;
+    }
+
+    .interests-note h4{
+        font-size: 0.8em;
+    }
+
+    .interests-note p{
+        font-size: 0.7em;
+    }
+
+    .contact-info h2{
+        font-size: 1.5em;
+    }
+
+    .contact-info-note p{
+        font-size: 0.7em;
+    }    
 }
 
-@media (max-width:833px){
+@media (max-width:840px){
     .project-img iframe{
         margin-top: 2em;
-        width: 280px;
-        height: 158px;
+        width: 400px;
+        height: 225px;
     }
 
     .leading h1{
@@ -1017,7 +1079,7 @@ iframe{
     }
 }
 
-@media (max-width:660px){
+@media (max-width:675px){
     .leading-photo img{
         margin: 3em 4em;
         width: 400px;
@@ -1025,7 +1087,7 @@ iframe{
     }
 }
 
-@media (max-width:585px){
+@media (max-width:630px){
     .introduction-para-short{
         display: none;
     }
@@ -1044,9 +1106,18 @@ iframe{
         margin: 2em;
         padding:0em;
     }
+
+    .leading h1{
+        font-size: 3.5em;
+    }
+    
+    .leading h2{
+        font-size: 1.8em;
+    
+    }
 }
 
-@media (max-width:527px){
+@media (max-width:595px){
     .leading-photo img{
         margin: 1em 2em;
         width: 400px;
@@ -1060,96 +1131,30 @@ iframe{
 
     .button-to-about .button-nav{
         margin: 1em 3em;
-        padding: 2em 3em 2em 11em;
-        width: 13em;
-    }
-}
-
-@media (max-width:490px){
-
-    nav.website-header h1{
-        font-size: 2em;
+        padding: 2em 3em 2em 10em;
+        width: 12em;
     }
 
-    nav.website-header h2{
-        font-size: 1.5em;
+    .leading h1{
+        font-size: 3.2em;
+    }
+    
+    .leading h2{
+        font-size: 1.6em;
+    
     }
 
-    h1{
-        font-size: 2em;
-    }
-
-    h2{
-        font-size: 1.5em;
-    }
-
-    h3{
+    .leading h3{
         font-size: 1.2em;
     }
 
-    h4{
-        font-size: 1em;
-    }
-
-    h5{
-        font-size: 0.8em;
-    }
-
-    p{
-        font-size: 0.8em;
-    }
-
-    ul{
-        font-size: 0.8em;
-    }
-
-    li{
+    .leading p{
         font-size: 0.8em;
     }
 }
 
-@media (max-width:415px) {
 
-    nav.website-header h1{
-        font-size: 1.7em;
-    }
-
-    nav.website-header h2{
-        font-size: 1.3em;
-    }
-
-    h1{
-        font-size: 1.7em;
-    }
-
-    h2{
-        font-size: 1.3em;
-    }
-
-    h3{
-        font-size: 1em;
-    }
-
-    h4{
-        font-size: 0.8em;
-    }
-
-    h5{
-        font-size: 0.7em;
-    }
-
-    p{
-        font-weight: 300;
-        font-size: 0.7em;
-    }
-
-    ul{
-        font-size: 0.7em;
-    }
-
-    li{
-        font-size: 0.7em;
-    }
+@media (max-width:515px) {
 
     .skills-list{
         margin: 0em 0em 1em;
@@ -1296,5 +1301,33 @@ iframe{
         flex-wrap: wrap;
         justify-content: center;
         margin:1em;
+    }
+
+    .interests h2{
+        font-size: 1em;
+    }
+
+    .interests-note h4{
+        font-size: 0.6em;
+    }
+
+    .interests-note p{
+        font-size: 0.6em;
+    }
+
+    .interests{
+        margin: 1em;
+        padding: 2em;
+    }
+
+    .contact-info{
+        margin: 1em;
+        padding: 2em;
+    }
+
+    .footer-all{
+        margin: 1em;
+        padding: 0.5em;
+        font-size: 0.8em;
     }
 }
