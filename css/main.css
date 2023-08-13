@@ -383,7 +383,7 @@ iframe{
 
 .project-body{
     color: white;
-    margin: 15em 15em 5em 15em;
+    margin: 5em;
 }
 
 .project-body p{
@@ -519,6 +519,7 @@ iframe{
 
 .project-body-introduction-redesign-seven{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin:1em;
 }
@@ -679,6 +680,10 @@ iframe{
 .footer-item:hover{
     text-decoration: none;
 } 
+
+.citations li{
+    padding:0.5em;
+}
   
 @media (max-width:1920px){
 
@@ -708,6 +713,30 @@ iframe{
     font-size: 5em;
 
 }
+
+.project-body-introduction-watch-one img{
+    width:50em;
+    height: 35em;
+    align-self: center;
+}
+}
+
+@media (max-width:1620px){
+    .project-body-introduction img:not(.project-body-introduction-watch-one img){
+        width: 20em;
+        height: auto;
+    }
+
+    .project-body-introduction-watch-one img{
+        width:40em;
+        height: 25em;
+    }
+
+    .leading-project-img img{
+        width: 25em;
+        height: auto;
+    }
+
 }
 
 @media (max-width:1555px){
@@ -806,6 +835,35 @@ iframe{
     }
 }
 
+@media (max-width:1300px){
+    .project-body-introduction img:not(.project-body-introduction-watch-one img){
+        width: 15em;
+        height: auto;
+    }
+
+    .project-body-introduction h3{
+        font-size: 1em;
+    }
+
+    .project-body-introduction p{
+        font-size: 0.8em;
+    }
+
+    .leading-project-img img{
+        width: 20em;
+        height: auto;
+    }
+
+    .leading-project-title h2{
+        font-size: 2em;
+    }
+
+    .leading-project-title h3{
+        font-size: 1em;
+    }
+
+}
+
 
 @media (max-width:1250px){
     #second.project-img{
@@ -839,6 +897,11 @@ iframe{
     .leading h2{
         font-size: 3.5em;
     
+    }
+
+    .project-body-introduction-watch-one img{
+        width:35em;
+        height: 20em; 
     }
 }
 
@@ -895,7 +958,6 @@ iframe{
       }
       
     ul {
-        list-style-type: none;
         padding: 0;
       }
 
@@ -914,6 +976,8 @@ iframe{
         font-size: 3em;
     
     }
+
+
 }
 
 @media (max-width:985px){
@@ -1000,6 +1064,11 @@ iframe{
     .contact-info-note p{
         font-size: 0.7em;
     }    
+
+    .project-body-introduction img:not(.project-body-introduction-watch-one img){
+        width: 13em;
+        height: auto;
+    }
 }
 
 @media (max-width:840px){
@@ -1150,6 +1219,19 @@ iframe{
 
     .leading p{
         font-size: 0.8em;
+    }
+
+    .leading-project{
+
+    }
+
+    .project-body-introduction p{
+        font-size: 0.7em;
+    }
+
+    .project-body-introduction-watch-one img{
+        width: 30em;
+        height: 15em;
     }
 }
 
@@ -1325,9 +1407,68 @@ iframe{
         padding: 2em;
     }
 
+    .contact-info h2{
+        font-size: 1em;
+    }
+
     .footer-all{
         margin: 1em;
         padding: 0.5em;
         font-size: 0.8em;
     }
+
+    .citation-heading h2{
+        font-size: 1em;
+    }
+
+    .citation-heading h3{
+        font-size: 0.7em;
+    }
+
+    .citations li{
+        font-size: 0.7em;
+    }
+
+    .project-body{
+        margin: 2em;
+    }
+
+    .leading-project{
+        margin: 3em;
+    }
+
+    .leading-project-title h2{
+        font-size: 1.5em;
+    }
+
+    .leading-project-img img{
+        width: 15em;
+    }
+
+    .project-body-introduction-process-two{
+        flex-wrap: wrap;
+    }
+
+    .project-body-introduction-process-three{
+        flex-wrap: wrap;
+    }
+
+    .project-body-introduction-redesign-four{
+        flex-wrap: wrap;
+    }
+
+    .project-body-introduction-redesign-five{
+        flex-wrap: wrap;
+    }
+
+    .project-body-introduction-redesign-six{
+        flex-wrap: wrap;
+    }
+
+    .project-body-introduction-watch-one img{
+        width: 25em;
+        height: 13em;
+    }
+
+
 }
